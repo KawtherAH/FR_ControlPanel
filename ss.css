@@ -17,7 +17,8 @@ div.base{
     margin-left: 54%;
     /*height: 66%;
     width: 35%;*/
-    padding: 20px;
+       padding: 20px 6px 20px 6px;
+
     text-align: center;
     border: 10px solid #B0C4DE;
     border-radius: 10px;
