@@ -8,12 +8,16 @@ include 'connect-db.php';
 
 <head>
     <title>Control Panel</title>
-    <link rel="stylesheet" href="ss.css" type="text/css">
+    <link rel="stylesheet" href="CSS/ss.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
     <style>
         /* Extra small devices (phones, 600px and down) */
         @media only screen and (max-width: 600px) {
+            html {
+                scroll-behavior: smooth;
+            }
+
             h1 {
                 font-size: 25px;
                 padding: 5px;
@@ -35,6 +39,8 @@ include 'connect-db.php';
             legend {
                 font-size: 100%;
                 padding-top: 2%;
+                padding: 2px 0px;
+    width: 100%;
             }
 
             fieldset {
@@ -53,7 +59,7 @@ include 'connect-db.php';
                 margin-top: 100%;
                 margin-left: 5%;
                 min-height: 55%;
-                max-height: 65%;
+                
                 min-width: 80%;
                 padding: 1%;
             }
@@ -99,7 +105,7 @@ include 'connect-db.php';
     <!--Arm Control-->
     <div class="warpper">
         <div class="arm">
-            <form class="arm" id="f1" name="robotArm" action="connect-db.php" method="POST">
+            <form class="arm" id="f1" name="robotArm" action="index.php" method="POST">
                 <fieldset>
                     <legend>Arm Control Panel</legend>
                     <table>
@@ -173,7 +179,7 @@ include 'connect-db.php';
         </div>
         <!--Base Control-->
         <div class="base">
-            <form id="f2" class="base" name="robotBase" action="index.html" method="POST">
+            <form id="f2" class="base" name="robotBase" action="index.php" method="POST">
                 <fieldset>
                     <legend>Base Control Panel</legend>
                     <button class="map" name="Forward" value="F">Forward</button><br>
