@@ -25,6 +25,7 @@ include 'connect-db.php';
 
             div.arm {
                 margin-left: 5%;
+                height: inherit;
             }
 
             form.arm {
@@ -59,7 +60,7 @@ include 'connect-db.php';
             div.base {
                 margin-top: 100%;
                 margin-left: 5%;
-                min-height: 55%;
+                height: inherit;
 
                 min-width: 80%;
                 padding: 1%;
@@ -70,9 +71,6 @@ include 'connect-db.php';
                 width: 100px;
                 margin: 20px 10px 20px;
             }
-            .sp {
- height: 50%;
-}
         }
 
         /* Small devices (portrait tablets and large phones,between 601px and 767px) */
@@ -108,7 +106,6 @@ include 'connect-db.php';
     <h1>Fighter Robot Project</h1>
     <!--Arm Control-->
     <div class="warpper">
-<div class="sp">
         <div class="arm">
             <form class="arm" id="f1" name="robotArm" action="index.php" method="POST">
                 <fieldset>
@@ -182,9 +179,7 @@ include 'connect-db.php';
                 <button class="btn" name="Center" value="Center" onclick="centerArm();">Center</button>
             </form>
         </div>
-        </div>
         <!--Base Control-->
-        <div class="sp">
         <div class="base">
             <form id="f2" class="base" name="robotBase" action="index.php" method="POST">
                 <fieldset>
@@ -197,7 +192,7 @@ include 'connect-db.php';
                 </fieldset>
             </form>
         </div>
-        </div>
+
     </div>
 
     <script>
