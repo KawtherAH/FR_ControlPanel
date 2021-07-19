@@ -15,8 +15,8 @@ div.arm{
 }
 div.base{
     margin-left: 54%;
-    height: 66%;
-    width: 35%;
+    /*height: 66%;
+    width: 35%;*/
     padding: 20px;
     text-align: center;
     border: 10px solid #B0C4DE;
@@ -47,12 +47,12 @@ legend{
     color: rgb(20, 11, 70);
     text-shadow: 1px 1px 1px darkblue;
     border-bottom: 1px solid #B0C4DE;
-    padding: 2px 0px;
-    width: 100%;
+    /*padding: 2px 0px;
+    width: 100%;*/
 }
-fieldset{
+/*fieldset{
     border: none;
-}
+}*/
 label{
     font-size: 100%;
     font-weight: bold;
