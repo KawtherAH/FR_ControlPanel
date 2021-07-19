@@ -10,13 +10,16 @@ h1{
     font-size: 40px;
     padding-bottom: 35px;
 }
+.warpper{
+    height: 100%;
+}
+
 div.arm{
     margin-left: 10%;
 }
 div.base{
     margin-left: 54%;
-    /*height: 66%;
-    width: 35%;*/
+    
     padding: 20px;
     text-align: center;
     border: 10px solid #B0C4DE;
@@ -88,6 +91,6 @@ button.map{
     box-shadow: 6px 8px 18px #b8bcc2;
     width: 120px;
     height: 60px;
-    margin: 45px 15px 20px;   
+    margin: 45px 15px 20px;      
 }
 
