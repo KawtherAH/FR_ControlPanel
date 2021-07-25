@@ -9,8 +9,7 @@ include 'connect-db.php';
 <head>
     <title>Control Panel</title>
     <link rel="stylesheet" href="ss.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* Extra small devices (phones, 600px and down) */
         @media only screen and (max-width: 600px) {
@@ -24,8 +23,9 @@ include 'connect-db.php';
             }
 
             div.arm {
-                margin-left: 5%;
-                height:max-content;
+                margin-left: 2%;
+                margin-right: 2%;
+                height: max-content;
             }
 
             form.arm {
@@ -60,17 +60,18 @@ include 'connect-db.php';
             }
 
             div.base {
-                margin-left: 5%;
-                height:max-content;
-
-                min-width: 80%;
+                margin-left: 2%;
+                margin-right: 2%;
+                margin-top: 5%;
+                height: max-content;
+                min-width: 92%;
                 padding: 1%;
-                position:sticky;
+                position: sticky;
             }
 
             button.map {
-                font-size: 80%;
-                width: 100px;
+                font-size: 100%;
+                width: 60%;
                 margin: 20px 10px 20px;
             }
         }
@@ -180,10 +181,10 @@ include 'connect-db.php';
                 <button class="state" name="Off" value="0" onclick="offBtn();">Off</button><br>
                 <button class="btn" name="Center" value="Center" onclick="centerArm();">Center</button>
             </form>
-        </div><!--<div style="height: 50%; width: 50%; position:fixed;"></div>-->
+        </div>
         <!--Base Control-->
         <div class="base">
-            <form id="f2" class="base" name="robotBase" action="index.php" method="POST">
+            <form id="f2" name="robotBase" action="index.php" method="POST">
                 <fieldset>
                     <legend>Base Control Panel</legend>
                     <button class="map" name="Forward" value="F">Forward</button><br>
