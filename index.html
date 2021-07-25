@@ -5,6 +5,7 @@ include 'connect-db.php';
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Control Panel</title>
     <link rel="stylesheet" href="ss.css" type="text/css">
@@ -12,7 +13,7 @@ include 'connect-db.php';
     <style>
         /* Extra small devices (phones, 400px and down) */
         @media only screen and (max-width: 400px) {
-            
+
             div.arm {
                 margin: 1% 2% 1% 1%;
                 height: max-content;
@@ -62,8 +63,9 @@ include 'connect-db.php';
                 margin: 20px 10px 20px;
             }
         }
-         /* Extra small devices (phones, 401px -> 600px) */
-        @media only screen and (max-width: 600px){
+
+        /* Extra small devices (phones, 401px -> 600px) */
+        @media only screen and (max-width: 600px) {
             div.arm {
                 margin: 1% 2% 1% 1%;
                 height: max-content;
@@ -107,22 +109,22 @@ include 'connect-db.php';
                 position: sticky;
             }
         }
-        /* Small devices (portrait tablets and large phones,between 601px and 767px) */
-        @media only screen and (min-width: 601px) and (max-width: 768px){
+
+        /* Small devices (portrait tablets and large phones, 601px -> 767px) */
+        @media only screen and (min-width: 601px) and (max-width: 768px) {
             div.arm {
-                margin: 1% 2% 1% 1%;
-                height: max-content;
+                margin: 1% 2% 1% 3%;
             }
 
             form.arm {
-                min-width: 90%;
-                padding: 15px 6px 10px 6px;
-                position: relative;
-
+                padding: 15px 8px 15px 8px;
+                text-align: center;
+                height: max-content;
+                width: 42%;
             }
 
             table {
-                padding: 5px 24% 5px;
+                padding: 10px;
             }
 
             legend {
@@ -136,44 +138,27 @@ include 'connect-db.php';
                 border: none;
             }
 
-            label {
-                font-size: 18px;
-            }
-
             input[type="range"] {
                 width: 100%;
             }
 
             div.base {
-                margin: 5% 1% 1% 3%;
+                min-width: 40%;
+                margin-left: 50%;
+                padding: 10px;
                 height: max-content;
-                min-width: 90%;
-                padding: 15px 5px 10px 5px;
-                position: sticky;
             }
 
-            
-        } 
-
-        /* Medium devices (landscape tablets,between 768 and 992px) */
-        @media only screen and (min-width: 768px) and (max-width: 992px) {
-            form.arm {
-                background: lightsalmon;
+            button.map {
+                font-size: 100%;
+                width: 100px;
+                margin: 5%;
             }
+
         }
 
-        /* Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {
-    form.arm{
-        background: lightskyblue;
-    }
-}*/
-        /* Extra large devices (large laptops and desktops, 1200px and up) 
-@media only screen and (min-width: 1200px) {
-    form.arm{
-        background: brown;
-    }
-}*/
+       
+      
     </style>
 </head>
 
