@@ -38,6 +38,8 @@ body{
         border-width: thick medium thick;
         background: white;
         position:absolute;
+        height: 61%;
+        width: 35%;/**/
     }
     
     table{
