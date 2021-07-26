@@ -1,5 +1,5 @@
 
-body{
+    body{
         background-image: url("img.jpg");
     }
     h1{
@@ -39,9 +39,8 @@ body{
         background: white;
         position:absolute;
         height: 61%;
-        width: 35%;/**/
+        width: 35%;
     }
-    
     table{
         padding:5px 124px 5px;
     }
@@ -53,6 +52,7 @@ body{
         color: rgb(20, 11, 70);
         text-shadow: 1px 1px 1px darkblue;
     }
+
     label{
         font-size: 110%;
         font-weight: bold;
@@ -63,6 +63,7 @@ body{
     input[type="range"]{
         width: 90%;
     }
+
     button{
         font-family:sans-serif bold;
         font-size: 100%;
@@ -78,7 +79,7 @@ body{
     button.state{
         width: 18%;
     }
-    button.btn {
+    button.btn{
         width: 38%;
     }
     button.map{
