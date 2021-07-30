@@ -1,6 +1,6 @@
 # FR Control Panel
 
-> ### To visit [My Page](https://kawtherah.github.io/FR_ControlPanel/).
+> ### To visit [My Control Panel](https://kawtherah.github.io/FR_ControlPanel/).
 > 
 > ##### Project 1 : [Control Panel](https://github.com/KawtherAH/Project1-Fighter-Robot).
 >
